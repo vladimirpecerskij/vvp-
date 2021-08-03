@@ -1,7 +1,11 @@
+#selection_sort
+
+
+
 def selection_sort(arr):
-for k in range (len(arr)):
+    for k in range (len(arr)):
 min_index = k #меньший элемент
-for j in range(k+1, len(arr)):
+    for j in range(k+1, len(arr)):
 if arr[min index] > arr[j]:
 min_index = j
 arr [k],arr[min_index] = arr [min index], arr[k]
